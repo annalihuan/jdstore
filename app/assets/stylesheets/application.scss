@@ -18,3 +18,80 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+
+  //<!--第一个大图-->
+.first {
+   background: url('http://oqcw08l71.bkt.clouddn.com/1-1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 1px;
+  //  border: solid;
+  //  border-color: white;
+  //  border-width: 1px;
+}
+
+
+.first p {
+  // border: solid;
+  font-size: 50px;
+  margin-top: 1010px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+}
+
+  //<!--第一个大图 end -->
+
+
+  //<!--导航栏-->
+ @media (min-width: 768px) {
+   .navbar {
+     border-radius: 0;
+   }
+ }
+
+  .navbar-default {
+      background-color: #212121;  //背景颜色
+
+      border-color: #212121; //边框色
+
+      margin-bottom: 0; //底部 margin 不撑开距离
+  }
+
+  .navbar-brand {
+    padding: 7px 15px;
+  }
+
+   .navbar-brand > img {
+       display: inline-block; //图片和链接文字显示在同一行
+       margin-right: 10px; //图片和链接文字拉开一点距离
+       width: 42px; //定制图片宽度
+       height: 42px; //定制图片高度
+
+   }
+    //<!--导航栏 end -->
+
+    //<!--第二张图-->
+  .second > p {
+    // display: table-cell; //图片水平居中
+    text-align: center;
+  }
+    //<!--第二张图 end -->
+
+    //<!--产品展示-->
+  .third {
+    // float: left;
+    // clear: both;
+    // margin: auto;
+    // border: solid;
+    // padding: 0 auto;
+    // display: inline-block;
+    // vertical-align: center;
+  }
+
+  .thumbnail {
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+  }
+    //<!--产品展示 end -->

@@ -36,7 +36,7 @@ Rails.application.routes.draw do
     end
   end
 
-  root "products#index"
+  root "welcome#index"
 
   namespace :account do
     resources :orders
